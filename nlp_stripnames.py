@@ -58,6 +58,6 @@ def clean_names(input_folder, output_folder):
                 output_file.write(formatted_output)
 
 # Usage
-input_folder = r"C:\Users\ashdi\Downloads\output_1-20240506T193128Z-001\Input"  # Change this to your input folder path
-output_folder = r"C:\Users\ashdi\Downloads\output_1-20240506T193128Z-001\Output"  # Change this to your output folder path
+input_folder = r"Input"  # Change this to your input folder path
+output_folder = r"Output"  # Change this to your output folder path
 clean_names(input_folder, output_folder)
